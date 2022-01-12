@@ -55,7 +55,7 @@ const persons = [
     {name:'Sandro', age : 22},
     {name:'Gio' , age : 22}
 ]
-const findPerson = persons.find((user) => {
-    return user.name === 'Lela';
+const findPerson = persons.find((me) => {
+    return me.name === 'Lela';
 });
 console.log (findPerson)
